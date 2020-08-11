@@ -1,0 +1,2644 @@
+﻿{
+  "rooms": [
+    {
+      "next": 10,
+      "right": 1,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalSeller",
+              "items": [
+                "flashlight"
+              ],
+              "type": "SELLER"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 11,
+      "right": 2,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 12,
+      "right": 3,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": true,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 13,
+      "right": 4,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 14,
+      "right": 5,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 15,
+      "right": 6,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalSeller",
+              "items": [
+                "flashlight"
+              ],
+              "type": "SELLER"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 16,
+      "right": 7,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 17,
+      "right": 8,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": true
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 18,
+      "right": 9,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 19,
+      "right": 0,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "winningdoorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 20,
+      "right": 11,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalSeller",
+              "items": [
+                "flashlight"
+              ],
+              "type": "SELLER"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 21,
+      "right": 12,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 22,
+      "right": 13,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": true,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 23,
+      "right": 14,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 24,
+      "right": 15,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 25,
+      "right": 16,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalSeller",
+              "items": [
+                "flashlight"
+              ],
+              "type": "SELLER"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 26,
+      "right": 17,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 27,
+      "right": 18,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": true
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 28,
+      "right": 19,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 29,
+      "right": 10,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "winningdoorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 30,
+      "right": 21,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalSeller",
+              "items": [
+                "flashlight"
+              ],
+              "type": "SELLER"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 31,
+      "right": 22,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 32,
+      "right": 23,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": true,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 33,
+      "right": 24,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 34,
+      "right": 25,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 35,
+      "right": 26,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalSeller",
+              "items": [
+                "flashlight"
+              ],
+              "type": "SELLER"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 36,
+      "right": 27,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 37,
+      "right": 28,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": true
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 38,
+      "right": 29,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 39,
+      "right": 20,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "winningdoorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 40,
+      "right": 31,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalSeller",
+              "items": [
+                "flashlight"
+              ],
+              "type": "SELLER"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 41,
+      "right": 32,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 42,
+      "right": 33,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": true,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 43,
+      "right": 34,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 44,
+      "right": 35,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 45,
+      "right": 36,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalSeller",
+              "items": [
+                "flashlight"
+              ],
+              "type": "SELLER"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 46,
+      "right": 37,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 47,
+      "right": 38,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": true
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 48,
+      "right": 39,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 49,
+      "right": 30,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "winningdoorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 0,
+      "right": 41,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalSeller",
+              "items": [
+                "flashlight"
+              ],
+              "type": "SELLER"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 1,
+      "right": 42,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 2,
+      "right": 43,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": true,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 3,
+      "right": 44,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 4,
+      "right": 45,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 5,
+      "right": 46,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalSeller",
+              "items": [
+                "flashlight"
+              ],
+              "type": "SELLER"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 6,
+      "right": 47,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "doorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 7,
+      "right": 48,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": true
+      },
+      "lit": false,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.EmptyWall",
+              "type": "EMPTY_WALL"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 8,
+      "right": 49,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalMirror",
+              "hasKey": true,
+              "key": "doorkey",
+              "type": "MIRROR"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": false,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "next": 9,
+      "right": 40,
+      "previous": -1,
+      "left": -1,
+      "roomSwitch": {
+        "state": false
+      },
+      "lit": true,
+      "parts": {
+        "forwardParts": {
+          "forwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        },
+        "backwardParts": {
+          "backwardParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalPainting",
+              "hasKey": true,
+              "key": "CHEST_KEY",
+              "type": "PAINTING"
+            }
+          ]
+        },
+        "eastParts": {
+          "eastParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalChest",
+              "gold": 10,
+              "needsKey": true,
+              "items": [
+                "winningdoorkey"
+              ],
+              "type": "CHEST"
+            }
+          ]
+        },
+        "westParts": {
+          "westParts": [
+            {
+              "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
+              "winningDoor": false,
+              "open": true,
+              "type": "DOOR"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
