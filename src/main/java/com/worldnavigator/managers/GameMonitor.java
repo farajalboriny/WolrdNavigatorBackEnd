@@ -122,7 +122,7 @@ public class GameMonitor {
 
   private int generateNewRoomIdNumber() {
     int min = 0;
-    int max = 1;
+    int max = 49;
     int range = max - min + 1;
     int random = (int) (Math.random() * range) + min;
     while (startingRooms.contains(random)) {
