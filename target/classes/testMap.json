@@ -1,0 +1,93 @@
+{
+  "Rooms": [
+    {
+      "right": 15,
+      "left":14,
+      "previous":1,
+      "roomSwitch": true,
+      "lit": false,
+      "ForwardPart": {
+        "Parts": [
+          {
+            "Name": "NormalDoor",
+            "winningDoor": true,
+            "isOpen": false
+          }
+        ]
+      },
+      "BackwardPart": {
+        "Parts": [
+          {
+           "Name": "NormalDoor",
+            "winningDoor": false,
+            "isOpen": true
+          }
+        ]
+      },
+      "EastPart": {
+        "Parts": [
+          {
+            "Name": "NormalDoor",
+            "winningDoor": false,
+            "isOpen": true
+          }
+        ]
+      },
+      "WestPart": {
+        "Parts": [
+          {
+            "Name": "NormalDoor",
+            "winningDoor": false,
+            "isOpen": true
+          }
+        ]
+      }
+    },
+    {
+      "next": 0,
+      "previous":2,
+      "left":14,
+      "right":15,
+      "roomSwitch": true,
+      "lit": true,
+      "ForwardPart": {
+        "Parts": [
+          {
+            "Name": "NormalDoor",
+            "winningDoor": false,
+            "isOpen": true
+          }
+        ]
+      },
+      "BackwardPart": {
+        "Parts": [
+          {
+           "Name": "NormalDoor",
+            "winningDoor": false,
+            "isOpen": true
+
+          }
+        ]
+      },
+      "EastPart": {
+        "Parts": [
+          {
+            "Name": "NormalDoor",
+            "winningDoor": false,
+            "isOpen": true
+          }
+        ]
+      },
+      "WestPart": {
+        "Parts": [
+          {
+            "Name": "NormalDoor",
+            "winningDoor": false,
+            "isOpen": true
+          }
+        ]
+      }
+    }
+  
+  ]
+}
