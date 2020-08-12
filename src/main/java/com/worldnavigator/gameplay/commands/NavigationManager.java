@@ -41,12 +41,10 @@ public class NavigationManager {
   }
 
   public static void checkPresentPlayers(Player player1) {
-    DefaultRoom player1Room = EntitiesGetter.getRoom(player1);
     List<String> list = EntitiesGetter.findPlayers(player1.getMapId());
     for (String userName2 : list) {
       Player player2 = EntitiesGetter.getPlayer(userName2);
-      DefaultRoom player2Room = EntitiesGetter.getRoom(player2);
-      if (checkIfPlayersInTheSameRoom(player1Room, player2Room, player1, player2)) {
+      if (checkIfPlayersInTheSameRoom(player1, player2)) {
         if (player2.getInventory().calculateValue() > player1.getInventory().calculateValue()) {
           lootPlayer(player2, player1);
           EntitiesGetter.removePlayer(player1);
@@ -78,10 +76,9 @@ public class NavigationManager {
     player2.getInventory().subtractGold(player2.getInventory().getGold());
   }
 
-  public static boolean checkIfPlayersInTheSameRoom(
-      DefaultRoom player1Room, DefaultRoom player2Room, Player player1, Player player2) {
-    return player2Room.getId() == player1Room.getId()
-        && !player1.getUserName().equals(player2.getUserName());
+  public static boolean checkIfPlayersInTheSameRoom(Player player1, Player player2) {
+    return player1.getCurrentRoomId() == player2.getCurrentRoomId()
+        && !(player1.getUserName().equals(player2.getUserName()));
   }
 
   public static boolean checkFight(Player player, DefaultRoom room) {

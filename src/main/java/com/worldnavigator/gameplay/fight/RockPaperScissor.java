@@ -71,7 +71,7 @@ public class RockPaperScissor {
     EntitiesGetter.getRoom(player).setFloorGold(0);
     EntitiesGetter.getRoom(player).setFloorItems(new ArrayList<>());
     EntitiesGetter.save(player);
-    EntitiesGetter.save(player2);
+
   }
 
   public static void lootEnemyStuff(Player player, Player player2) {

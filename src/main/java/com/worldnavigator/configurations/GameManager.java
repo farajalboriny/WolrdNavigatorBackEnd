@@ -87,6 +87,7 @@ public class GameManager {
       random = (int) (Math.random() * range) + min;
     }
     startingRooms.add(random);
+    System.out.println(random);
     return random;
   }
 
