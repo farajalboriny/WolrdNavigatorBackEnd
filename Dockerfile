@@ -1,5 +1,12 @@
 
-FROM java:8
-EXPOSE 8080
-ADD target/WorldNavigator-1.0-SNAPSHOT.jar WorldNavigator-1.0-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","WorldNavigator-1.0-SNAPSHOT.jar"]
+
+FROM openjdk:14.0.1-jdk
+
+WORKDIR /hs
+
+
+
+
+COPY target/WorldNavigator-1.0-SNAPSHOT.jar /hs/WorldNavigator-1.0-SNAPSHOT.jar
+
+CMD java -jar WorldNavigator-1.0-SNAPSHOT.jar

@@ -14,7 +14,7 @@ public class MapBuilder {
     GameMap gameMap = null;
     try {
       ObjectMapper objectMapper = new ObjectMapper();
-      gameMap = objectMapper.readValue(new File("codebeautify2.json"), GameMap.class);
+      gameMap = objectMapper.readValue(new File("map.json"), GameMap.class);
 
     } catch (IOException e) {
       System.out.println(e.getMessage());
