@@ -47,7 +47,6 @@
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/managers/PartsManager.java
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/archeticture/parts/impl/NormalChest.java
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/gameplay/exceptions/TimeExceededException.java
-/home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/gameplay/fight/FightManager.java
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/auth/model/Fetch.java
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/managers/NonPlayerCharManager.java
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/gameplay/exceptions/IllegalCommandException.java
@@ -67,6 +66,7 @@
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/gameplay/ConsolePrinter.java
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/archeticture/parts/impl/NormalPainting.java
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/gameplay/commands/OpenDoorCommand.java
+/home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/managers/FightManager.java
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/configurations/CommandsConfiguration.java
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/archeticture/map/ForwardPart.java
 /home/faraj/Desktop/Project/WorldNavigator/src/main/java/com/worldnavigator/managers/GameManager.java

@@ -15,7 +15,7 @@
             {
               "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
               "winningDoor": false,
-              "open": false,
+              "open": true,
               "type": "DOOR"
             }
           ]
@@ -68,7 +68,7 @@
             {
               "@class": "com.worldnavigator.archeticture.parts.impl.NormalDoor",
               "winningDoor": false,
-              "open": false,
+              "open": true,
               "type": "DOOR"
             }
           ]

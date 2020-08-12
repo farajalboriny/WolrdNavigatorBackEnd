@@ -2,7 +2,7 @@ package com.auth.service;
 
 import com.auth.model.ExecutionResponse;
 import com.worldnavigator.gameplay.fight.FightBody;
-import com.worldnavigator.gameplay.fight.FightManager;
+import com.worldnavigator.managers.FightManager;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;

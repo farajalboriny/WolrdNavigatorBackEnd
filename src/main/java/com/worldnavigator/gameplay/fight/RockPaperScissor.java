@@ -2,6 +2,7 @@ package com.worldnavigator.gameplay.fight;
 
 import com.worldnavigator.managers.EntitiesManager;
 import com.worldnavigator.gameplay.Player;
+import com.worldnavigator.managers.FightManager;
 
 import java.util.ArrayList;
 

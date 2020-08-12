@@ -1,6 +1,7 @@
 package com.worldnavigator.gameplay.fight;
 
 import com.worldnavigator.gameplay.Player;
+import com.worldnavigator.managers.FightManager;
 
 public class FightSetup {
   public static void setupFightBody(Player player1, Player player2) {
