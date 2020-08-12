@@ -1,6 +1,6 @@
 package com.worldnavigator.gameplay.fight;
 
-import com.worldnavigator.gameplay.EntitiesGetter;
+import com.worldnavigator.managers.EntitiesManager;
 import com.worldnavigator.gameplay.Player;
 
 import java.util.ArrayList;
@@ -16,9 +16,9 @@ public class RockPaperScissor {
       FightManager.cleanUsersInFight(fightBody.getUserName());
       return "tie";
     } else {
-      Player player = EntitiesGetter.getPlayer(fightBody.getUserName());
+      Player player = EntitiesManager.getPlayer(fightBody.getUserName());
       player.setTie(false);
-      Player player2 = EntitiesGetter.getPlayer(fightBody2.getUserName());
+      Player player2 = EntitiesManager.getPlayer(fightBody2.getUserName());
       win(player, player2);
       FightManager.cleanUsersInFight(fightBody.getUserName());
 
@@ -36,9 +36,9 @@ public class RockPaperScissor {
       FightManager.cleanUsersInFight(fightBody.getUserName());
       return "badChoice";
     } else {
-      Player player = EntitiesGetter.getPlayer(fightBody.getUserName());
+      Player player = EntitiesManager.getPlayer(fightBody.getUserName());
       player.setTie(false);
-      Player player2 = EntitiesGetter.getPlayer(fightBody2.getUserName());
+      Player player2 = EntitiesManager.getPlayer(fightBody2.getUserName());
       win(player, player2);
       FightManager.cleanUsersInFight(fightBody.getUserName());
 
@@ -52,9 +52,9 @@ public class RockPaperScissor {
       FightManager.cleanUsersInFight(fightBody.getUserName());
       return "badChoice";
     } else if (enemyChosen.equals("scissor")) {
-      Player player = EntitiesGetter.getPlayer(fightBody.getUserName());
+      Player player = EntitiesManager.getPlayer(fightBody.getUserName());
       player.setTie(false);
-      Player player2 = EntitiesGetter.getPlayer(fightBody2.getUserName());
+      Player player2 = EntitiesManager.getPlayer(fightBody2.getUserName());
       win(player, player2);
       FightManager.cleanUsersInFight(fightBody.getUserName());
 
@@ -68,9 +68,9 @@ public class RockPaperScissor {
   public static void win(Player player, Player player2) {
     lootEnemyStuff(player, player2);
     removeEnemyStuff(player2);
-    EntitiesGetter.getRoom(player).setFloorGold(0);
-    EntitiesGetter.getRoom(player).setFloorItems(new ArrayList<>());
-    EntitiesGetter.save(player);
+    EntitiesManager.getRoom(player).setFloorGold(0);
+    EntitiesManager.getRoom(player).setFloorItems(new ArrayList<>());
+    EntitiesManager.save(player);
 
   }
 

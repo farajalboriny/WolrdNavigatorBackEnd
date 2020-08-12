@@ -2,8 +2,8 @@ package com.worldnavigator.gameplay.commands;
 
 import com.worldnavigator.archeticture.constants.Item;
 import com.worldnavigator.archeticture.parts.abstracts.Seller;
-import com.worldnavigator.gameplay.EntitiesGetter;
-import com.worldnavigator.gameplay.NonPlayerCharManager;
+import com.worldnavigator.managers.EntitiesManager;
+import com.worldnavigator.managers.NonPlayerCharManager;
 import com.worldnavigator.gameplay.Player;
 import com.worldnavigator.gameplay.Printer;
 import com.worldnavigator.gameplay.exceptions.IllegalCommandException;
@@ -29,7 +29,7 @@ public class BuyCommand implements Command {
       checkItem();
       checkPrice(player);
       buyItem(player);
-      EntitiesGetter.save(player);
+      EntitiesManager.save(player);
       return;
     }
     throw new IllegalCommandException(

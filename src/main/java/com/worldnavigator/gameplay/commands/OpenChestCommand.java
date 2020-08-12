@@ -2,11 +2,11 @@ package com.worldnavigator.gameplay.commands;
 
 import com.worldnavigator.archeticture.constants.Item;
 import com.worldnavigator.archeticture.map.DefaultRoom;
-import com.worldnavigator.archeticture.map.PartsManager;
+import com.worldnavigator.managers.PartsManager;
 import com.worldnavigator.archeticture.parts.abstracts.RoomPart;
 import com.worldnavigator.archeticture.parts.impl.NormalChest;
-import com.worldnavigator.gameplay.EntitiesGetter;
-import com.worldnavigator.gameplay.NonPlayerCharManager;
+import com.worldnavigator.managers.EntitiesManager;
+import com.worldnavigator.managers.NonPlayerCharManager;
 import com.worldnavigator.gameplay.Player;
 import com.worldnavigator.gameplay.Printer;
 import com.worldnavigator.gameplay.exceptions.IllegalCommandException;
@@ -23,14 +23,14 @@ public class OpenChestCommand implements Command {
   @Override
   public void execute(Player player) throws IllegalCommandException {
     NonPlayerCharManager.tradeModeCheck(player);
-    DefaultRoom defaultRoom = EntitiesGetter.getRoom(player);
+    DefaultRoom defaultRoom = EntitiesManager.getRoom(player);
     if (defaultRoom.isLit()) {
       NormalChest chest = getChest(player);
       if (chest.needsKey()) {
         if (player.getInventory().hasItem(Item.CHEST_KEY)) {
           chest.openChest();
           player.getInventory().removeItem(Item.CHEST_KEY);
-          EntitiesGetter.save(player);
+          EntitiesManager.save(player);
           printer.print("you opened the chest");
           return;
         }

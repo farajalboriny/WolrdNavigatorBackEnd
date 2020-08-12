@@ -1,7 +1,7 @@
 package com.worldnavigator.gameplay.commands;
 
 import com.worldnavigator.archeticture.map.DefaultRoom;
-import com.worldnavigator.gameplay.EntitiesGetter;
+import com.worldnavigator.managers.EntitiesManager;
 import com.worldnavigator.gameplay.Player;
 import com.worldnavigator.gameplay.Printer;
 
@@ -14,11 +14,11 @@ public class SwitchLightsCommand implements Command {
 
   @Override
   public void execute(Player player) {
-    DefaultRoom currentRoom = EntitiesGetter.getRoom(player);
+    DefaultRoom currentRoom = EntitiesManager.getRoom(player);
     if (currentRoom.hasSwitch()) {
       currentRoom.turnSwitch();
       printer.print("clicked on light switch");
-      EntitiesGetter.save(player);
+      EntitiesManager.save(player);
       return;
     }
     printer.print("this room does not have a light switch!");

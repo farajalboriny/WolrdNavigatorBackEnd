@@ -1,11 +1,11 @@
 package com.worldnavigator.gameplay.commands;
 
 import com.worldnavigator.archeticture.map.DefaultRoom;
-import com.worldnavigator.archeticture.map.PartsManager;
+import com.worldnavigator.managers.PartsManager;
 import com.worldnavigator.archeticture.parts.abstracts.RoomPart;
 import com.worldnavigator.archeticture.parts.impl.NormalDoor;
-import com.worldnavigator.gameplay.EntitiesGetter;
-import com.worldnavigator.gameplay.NonPlayerCharManager;
+import com.worldnavigator.managers.EntitiesManager;
+import com.worldnavigator.managers.NonPlayerCharManager;
 import com.worldnavigator.gameplay.Player;
 import com.worldnavigator.gameplay.Printer;
 import com.worldnavigator.gameplay.exceptions.IllegalCommandException;
@@ -22,7 +22,7 @@ public class CheckDoorCommand implements Command {
   @Override
   public void execute(Player player) throws IllegalCommandException {
     NonPlayerCharManager.tradeModeCheck(player);
-    DefaultRoom defaultRoom = EntitiesGetter.getRoom(player);
+    DefaultRoom defaultRoom = EntitiesManager.getRoom(player);
     if (defaultRoom.isLit()) {
       NormalDoor door = getDoor(player);
       if (door.isOpen()) {

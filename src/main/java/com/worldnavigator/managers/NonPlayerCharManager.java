@@ -1,8 +1,8 @@
-package com.worldnavigator.gameplay;
+package com.worldnavigator.managers;
 
-import com.worldnavigator.archeticture.map.PartsManager;
 import com.worldnavigator.archeticture.parts.abstracts.RoomPart;
 import com.worldnavigator.archeticture.parts.impl.NormalSeller;
+import com.worldnavigator.gameplay.Player;
 import com.worldnavigator.gameplay.exceptions.IllegalCommandException;
 
 import java.util.List;

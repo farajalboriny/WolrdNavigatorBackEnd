@@ -1,7 +1,7 @@
 package com.worldnavigator.gameplay.commands;
 
 import com.worldnavigator.archeticture.parts.abstracts.Seller;
-import com.worldnavigator.gameplay.NonPlayerCharManager;
+import com.worldnavigator.managers.NonPlayerCharManager;
 import com.worldnavigator.gameplay.Player;
 import com.worldnavigator.gameplay.Printer;
 import com.worldnavigator.gameplay.exceptions.IllegalCommandException;

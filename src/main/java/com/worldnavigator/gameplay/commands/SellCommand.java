@@ -1,7 +1,7 @@
 package com.worldnavigator.gameplay.commands;
 
 import com.worldnavigator.archeticture.constants.Item;
-import com.worldnavigator.gameplay.EntitiesGetter;
+import com.worldnavigator.managers.EntitiesManager;
 import com.worldnavigator.gameplay.Player;
 import com.worldnavigator.gameplay.Printer;
 import com.worldnavigator.gameplay.exceptions.IllegalCommandException;
@@ -24,7 +24,7 @@ public class SellCommand implements Command {
       item = getMapItems().get(getCommandsParam()[1]);
       checkItem(player);
       sell(player);
-      EntitiesGetter.save(player);
+      EntitiesManager.save(player);
       return;
     }
     throw new IllegalCommandException(

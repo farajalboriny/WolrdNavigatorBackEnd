@@ -1,6 +1,6 @@
 package com.worldnavigator.gameplay.fight;
 
-import com.worldnavigator.gameplay.EntitiesGetter;
+import com.worldnavigator.managers.EntitiesManager;
 import com.worldnavigator.gameplay.Player;
 
 import java.util.Date;
@@ -72,8 +72,8 @@ public class FightManager {
     int requiredTimeInMillis = 60 * 1000; // 25 seconds
     FightBody fightBody = getFightBody(userName);
     FightBody fightBody2 = getFightBody(getEnemy(userName));
-    Player player1 = EntitiesGetter.getPlayer(fightBody.getUserName());
-    Player player2 = EntitiesGetter.getPlayer(fightBody2.getUserName());
+    Player player1 = EntitiesManager.getPlayer(fightBody.getUserName());
+    Player player2 = EntitiesManager.getPlayer(fightBody2.getUserName());
     while (!enemyChose(fightBody2)) {
       if (elapsedTime > requiredTimeInMillis) {
         win(player1, player2);

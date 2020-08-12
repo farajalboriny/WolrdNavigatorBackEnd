@@ -4,10 +4,11 @@ import com.auth.model.ExecutionBody;
 import com.auth.model.Fetch;
 import com.auth.model.PlayerEntity;
 import com.auth.model.PlayersCount;
-import com.worldnavigator.configurations.GameManager;
 import com.worldnavigator.configurations.JsonConverter;
 import com.worldnavigator.configurations.MapBuilder;
 import com.worldnavigator.gameplay.Player;
+import com.worldnavigator.managers.GameManager;
+import com.worldnavigator.managers.GameMonitor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,6 +18,7 @@ public class FetchGameStatusService {
   @Autowired private PlayersCountService playersCountRepository;
   @Autowired private PlayerService playerEntityRepository;
   @Autowired private GameManager gameManager;
+  @Autowired private GameMonitor gameMonitor;
   private final JsonConverter jsonConverter = new JsonConverter();
 
   public Fetch fetchGameStatus(ExecutionBody executionBody) {
@@ -30,11 +32,7 @@ public class FetchGameStatusService {
       Player player = jsonConverter.convertJsonToPlayer(playerEntity.getPlayer());
       if (player.getMapId() != -1) {
         mapId = player.getMapId();
-        users =
-            playersCountRepository
-                .findByMapId(mapId)
-                .getPlayers()
-                .toArray(new String[getPlayersListSize(mapId)]);
+        users = getUsers(mapId);
         fetch.setActiveUsers(users);
         fetch.setTie(player.isTie());
       } else {
@@ -46,6 +44,17 @@ public class FetchGameStatusService {
     return fetch;
   }
 
+  private String[] getUsers(int mapId) {
+    if (playersCountRepository.findByMapId(mapId) != null) {
+      return playersCountRepository
+          .findByMapId(mapId)
+          .getPlayers()
+          .toArray(new String[getPlayersListSize(mapId)]);
+    } else {
+      return new String[0];
+    }
+  }
+
   private int getPlayersListSize(int mapId) {
     return playersCountRepository.findByMapId(mapId).getPlayers().size();
   }
@@ -53,10 +62,7 @@ public class FetchGameStatusService {
   public void playerLoggedIn(String username) {
     if (mapRepository.findByMapId(-1) == null) {
       MapBuilder mapBuilder = new MapBuilder();
-
       mapRepository.save(mapBuilder.build(-1));
-    }
-    if (playersCountRepository.findByMapId(-1) == null) {
       PlayersCount playersCount = new PlayersCount();
       playersCount.setMapId(-1);
       playersCountRepository.save(playersCount);
@@ -64,5 +70,6 @@ public class FetchGameStatusService {
     Player player = new Player();
     player.setUserName(username);
     gameManager.addPlayer(player);
+    gameMonitor.startGameAfter2Min();
   }
 }

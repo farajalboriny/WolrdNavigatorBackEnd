@@ -1,7 +1,7 @@
 package com.worldnavigator.archeticture.constants;
 
 import com.worldnavigator.archeticture.map.Part;
-import com.worldnavigator.gameplay.EntitiesGetter;
+import com.worldnavigator.managers.EntitiesManager;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
@@ -27,19 +27,19 @@ public class AvailablePartsMap {
 
   private Part getForwardParts(String userName) {
 
-    return EntitiesGetter.getRoom(EntitiesGetter.getPlayer(userName)).getForwardParts();
+    return EntitiesManager.getRoom(EntitiesManager.getPlayer(userName)).getForwardParts();
   }
 
   private Part getBackwardParts(String userName) {
-    return EntitiesGetter.getRoom(EntitiesGetter.getPlayer(userName)).getBackwardParts();
+    return EntitiesManager.getRoom(EntitiesManager.getPlayer(userName)).getBackwardParts();
   }
 
   private Part getEastParts(String userName) {
-    return EntitiesGetter.getRoom(EntitiesGetter.getPlayer(userName)).getEastParts();
+    return EntitiesManager.getRoom(EntitiesManager.getPlayer(userName)).getEastParts();
   }
 
   private Part getWestParts(String userName) {
-    return EntitiesGetter.getRoom(EntitiesGetter.getPlayer(userName)).getWestParts();
+    return EntitiesManager.getRoom(EntitiesManager.getPlayer(userName)).getWestParts();
   }
 
   public Map<String, Part> getAvailablePartsMap() {

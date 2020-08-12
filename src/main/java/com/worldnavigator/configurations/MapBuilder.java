@@ -2,6 +2,7 @@ package com.worldnavigator.configurations;
 
 import com.auth.model.MapEntity;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.worldnavigator.archeticture.map.GameMap;
 
 import java.io.IOException;
 
@@ -14,7 +15,7 @@ public class MapBuilder {
     try {
       ObjectMapper objectMapper = new ObjectMapper();
       ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
-      gameMap = objectMapper.readValue(classLoader.getResource("map.json"), GameMap.class);
+      gameMap = objectMapper.readValue(classLoader.getResource("testMap.json"), GameMap.class);
 
     } catch (IOException e) {
       System.out.println(e.getMessage());

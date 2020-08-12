@@ -1,11 +1,11 @@
 package com.worldnavigator.gameplay.commands;
 
 import com.worldnavigator.archeticture.map.DefaultRoom;
-import com.worldnavigator.archeticture.map.PartsManager;
+import com.worldnavigator.managers.PartsManager;
 import com.worldnavigator.archeticture.parts.abstracts.Mirror;
 import com.worldnavigator.archeticture.parts.abstracts.RoomPart;
-import com.worldnavigator.gameplay.EntitiesGetter;
-import com.worldnavigator.gameplay.NonPlayerCharManager;
+import com.worldnavigator.managers.EntitiesManager;
+import com.worldnavigator.managers.NonPlayerCharManager;
 import com.worldnavigator.gameplay.Player;
 import com.worldnavigator.gameplay.Printer;
 import com.worldnavigator.gameplay.exceptions.IllegalCommandException;
@@ -22,14 +22,14 @@ public class CheckMirrorCommand implements Command {
   @Override
   public void execute(Player player) throws IllegalCommandException {
     NonPlayerCharManager.tradeModeCheck(player);
-    DefaultRoom defaultRoom = EntitiesGetter.getRoom(player);
+    DefaultRoom defaultRoom = EntitiesManager.getRoom(player);
     if (defaultRoom.isLit()) {
       Mirror mirror = getMirror(player);
       if (mirror.hasKey()) {
         player.getInventory().addItem(mirror.getKey());
         printer.print("added  " + mirror.getKey().toString() + " to the inventory");
         mirror.removeKey();
-        EntitiesGetter.save(player);
+        EntitiesManager.save(player);
       } else {
         printer.print("no key found");
       }

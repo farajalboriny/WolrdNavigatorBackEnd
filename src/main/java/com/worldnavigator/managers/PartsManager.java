@@ -1,6 +1,7 @@
-package com.worldnavigator.archeticture.map;
+package com.worldnavigator.managers;
 
 import com.worldnavigator.archeticture.constants.AvailablePartsMap;
+import com.worldnavigator.archeticture.map.Part;
 import com.worldnavigator.archeticture.parts.abstracts.RoomPart;
 import com.worldnavigator.gameplay.Player;
 

@@ -1,7 +1,7 @@
 package com.worldnavigator.archeticture.map;
 
 import com.worldnavigator.archeticture.parts.abstracts.RoomPart;
-import com.worldnavigator.gameplay.EntitiesGetter;
+import com.worldnavigator.managers.EntitiesManager;
 import com.worldnavigator.gameplay.Player;
 
 import java.util.List;
@@ -70,6 +70,6 @@ public class EastPart implements Part {
 
   private DefaultRoom getCurrentRoom(Player player) {
 
-    return EntitiesGetter.getRoom(player);
+    return EntitiesManager.getRoom(player);
   }
 }

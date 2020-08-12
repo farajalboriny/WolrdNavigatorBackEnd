@@ -6,11 +6,11 @@ import com.auth.model.PlayerEntity;
 import com.worldnavigator.configurations.JsonConverter;
 import com.worldnavigator.gameplay.CommandLineParser;
 import com.worldnavigator.gameplay.ConsolePrinter;
-import com.worldnavigator.gameplay.EntitiesGetter;
 import com.worldnavigator.gameplay.Player;
 import com.worldnavigator.gameplay.commands.Command;
 import com.worldnavigator.gameplay.exceptions.IllegalCommandException;
 import com.worldnavigator.gameplay.exceptions.WrongCommandException;
+import com.worldnavigator.managers.EntitiesManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -35,7 +35,7 @@ public class CommandsExecutionService {
         }
         executionResponse.setMessage(ConsolePrinter.result);
       } else {
-        executionResponse.setMessage("waiting for more players please wait");
+        executionResponse.setMessage("please wait for the game to start");
       }
     } else {
       executionResponse.setMessage("a player entered the room and you lost against him");
@@ -47,12 +47,12 @@ public class CommandsExecutionService {
       throws WrongCommandException, IllegalCommandException, OperationNotSupportedException {
     CommandLineParser commandLineParser = new CommandLineParser();
     Command command = commandLineParser.parse(executionBody.getCommand());
-    command.execute(EntitiesGetter.getPlayer(executionBody.getUserName()));
+    command.execute(EntitiesManager.getPlayer(executionBody.getUserName()));
   }
 
   private boolean playerNotInMapOrQuit(ExecutionBody executionBody) {
-    Player player = null;
-    PlayerEntity playerEntity = null;
+    Player player;
+    PlayerEntity playerEntity;
     if (playerEntityRepository.findByUserName(executionBody.getUserName()) != null) {
       playerEntity = playerEntityRepository.findByUserName(executionBody.getUserName());
       player = jsonConverter.convertJsonToPlayer(playerEntity.getPlayer());

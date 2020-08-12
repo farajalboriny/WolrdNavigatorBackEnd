@@ -1,6 +1,6 @@
 package com.worldnavigator.gameplay.commands;
 
-import com.worldnavigator.gameplay.EntitiesGetter;
+import com.worldnavigator.managers.EntitiesManager;
 import com.worldnavigator.gameplay.Player;
 import com.worldnavigator.gameplay.Printer;
 import com.worldnavigator.gameplay.exceptions.IllegalCommandException;
@@ -18,7 +18,7 @@ public class FinishTradeCommand implements Command {
     if (player.checkTradeMode()) {
       player.switchTrade();
       printer.print("Trade mode deactivated");
-      EntitiesGetter.save(player);
+      EntitiesManager.save(player);
       return;
     }
     throw new IllegalCommandException("trade mode is already off");

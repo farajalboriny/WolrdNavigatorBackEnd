@@ -1,8 +1,7 @@
 package com.worldnavigator.gameplay.commands;
 
-import com.worldnavigator.archeticture.map.PartsManager;
-import com.worldnavigator.gameplay.EntitiesGetter;
-import com.worldnavigator.gameplay.NonPlayerCharManager;
+import com.worldnavigator.managers.EntitiesManager;
+import com.worldnavigator.managers.NonPlayerCharManager;
 import com.worldnavigator.gameplay.Player;
 import com.worldnavigator.gameplay.Printer;
 import com.worldnavigator.gameplay.exceptions.IllegalCommandException;
@@ -19,6 +18,6 @@ public class LeftCommand implements Command {
     NonPlayerCharManager.tradeModeCheck(player);
     player.leftRotate();
     printer.print("your current direction is " + player.getOrientations());
-    EntitiesGetter.save(player);
+    EntitiesManager.save(player);
   }
 }

@@ -15,7 +15,8 @@ public class PlayersCount {
 
   private int mapId;
 
-  @ElementCollection private List<String> players = new ArrayList<>();
+  @ElementCollection(fetch = FetchType.EAGER)
+  private List<String> players = new ArrayList<>();
 
   public PlayersCount() {}
 

@@ -1,6 +1,4 @@
-package com.worldnavigator.configurations;
-
-import com.worldnavigator.archeticture.map.DefaultRoom;
+package com.worldnavigator.archeticture.map;
 
 import java.util.List;
 
